@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Aqui se hace el pedido</title>
+    <link rel = "stilesheet" href = "">
+    <style></style>
+</head>
+<body>
+    <img src = "./resources/img/Space Cake pedido.png" alt="logo tacos" width="400">
+    <br><br>
+    <h1>Aqui se hace el pedido</h1>
+    <form action="pedido.js"> </form>
+        
+        <label for="nombre">Danos tu nombre Cake-nauta</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
+        
+        <label for="correo1">Correo electronico</label><br>
+        <input type="email" id="correo1" name="correo1" placeholder="e-mail"><br><br>
+        
+        <label for="tel1">Numero telefonico</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="Telefono"><br><br> 
+        
+        
+        <p>Pastel De Que?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <br>
+        <input type="checkbox" id="venus" name="venus" value="venus">
+        <label for="venus">Venus</label>
+        <br>
+        <input type="checkbox" id="tierra" name="tierra" value="tierra">
+        <label for="tierra">Tierra</label>
+        <br>
+        <input type="checkbox" id="marte" name="marte" value="marte">
+        <label for="marte">Marte</label>
+        <br>
+        <input type="checkbox" id="Jupiter" name="Jupiter" value="Jupiter">
+        <label for="Jupiter">Jupiter</label>
+        <br>
+        <input type="checkbox" id="Saturno" name="Saturno" value="Saturno">
+        <label for="Saturno">Saturno</label>
+
+        <p>Elige tipo de harina:</p>
+        <input type="radio" id="normal" name="harina" value="normal">
+        <label for="normal">Normal</label><br>
+        <input type="radio" id="integral" name="harina" value="integral">
+        <label for="verde">Integral</label><br>
+        <input type="radio" id="singluten" name="harina" value="singluten">
+        <label for="singluten">Sin gluten</label><br><br>
+
+      
+        <p>Elige tu relleno:</p>
+        <select name="relleno" id="Relleno">
+            <option value="vainilla">Vainilla</option>
+            <option value="chocolate">Chocolate</option>  
+            <option value="fresa">Fresas con crema</option>  
+            <option value="envinado">Envinado</option>
+            <option value="nuez">Nueces</option>  
+            
+        </select>
+
+        <p>Deseas que tu Pastel diga algo?</p>
+        <input type="text" id="quote" name="quote" placeholder="Felicitaciones ..." maxlength="24"><br><br>
+
+        <p>Comentarios adicionales</p>
+        <input type="text" id="quote2" name="quote2" placeholder="Tu comentario" maxlength="100"><br><br>
+
+        <h2>Gracias por tu compra!</h2>
+
+        <br>       
+        <input type="reset">
+        <input type="submit">
+    </form>
+    
+
+
+
+
+
+</html>
