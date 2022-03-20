@@ -1,0 +1,560 @@
+/* GENERAL */
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+section{
+    width: 100%;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+.p2{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.negritas {
+    font-weight: bolder;
+}
+
+.centrado{
+    text-align: center;
+}
+
+/* Los colores de fondo */
+
+.colorAzulClaro{
+    color: #e7f3fc;
+}
+
+.colorAzulClaroFinal{
+    color: #eef2fe;
+}
+
+.colorAzulBoton{
+    color: #3150cf;
+}
+
+.colorAzulTitulo{
+    color: #2d4cca;
+}
+
+.colorAzulSubtitulo{
+    color: #1f3f73;
+}
+
+.colorGris{
+    color: #6d7b93;
+}
+
+.boton {
+    background-color:#dae5fa;
+    color:#4563d7;
+    text-align: center;
+    width:150px;
+    height:40px;
+}
+
+.boton:hover {
+    background: #4563d7;
+    color:white;
+}
+
+
+/* BARRA DE NAVEGACION */
+.navbar {
+    overflow:hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+  /* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color:#6d7a92;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+}
+
+  /* Change background on mouse-over */
+.navbar a:hover {
+    background: #3958d6;
+    color: rgb(255, 254, 254);
+}
+
+  /* Main content */
+.main {
+    margin-top: 5px; /* Add a top margin to avoid content overlay */
+    margin-left: 30px;
+}
+
+
+/* Formato del SECCION 1*/
+
+.wrapper {
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    position: absolute;
+    top:80px;
+    left:5px;
+}
+
+.texto1{
+    float: left;
+    width: 38%;
+    height: 70%;
+    position:relative;
+    top: 8%;
+    left: 7%;
+    ;
+    
+}
+
+.texto1B{
+    float: left;
+    width: 50%;
+    height: 50%;
+    position:relative;
+    top: 0.6%;
+    left: 20%;
+    ;
+    
+}
+
+.icon1{
+    float: left;
+    width: 10%;
+    height: 10%;
+    position:relative;
+    top: 2%;
+    left: 16%;
+    ;
+    
+}
+
+.texto1C{
+    float: left;
+    width: 50%;
+    height: 25%;
+    position:relative;
+    top: -41%;
+    left: -20%;
+}
+
+.icon2{
+    float: left;
+    width: 50%;
+    height: 25%;
+    position:relative;
+    top: -40%;
+    left: 16%;
+    
+}
+
+.img1 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/img/Imagen1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5px;
+}
+
+/* SECCION 1 DE LLENADO DE FORMULARIO */
+.formulario {
+    width: 80%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    top:650px;
+    left:150px;
+}
+
+.f-enviar{
+    float: right;
+    width: 10%;
+    height: 25%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: absolute;
+    top:35%;
+    right:5%;
+}
+
+.f-date {
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:10%;
+    left:30%;
+
+}
+
+.iconf1 {float: left;
+    text-align: center;
+    width: 20%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:16%;
+    left:25%;
+}
+
+.f-vac {
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:10%;
+    left:55%;
+
+}
+
+.iconf2 {float: left;
+    text-align: center;
+    width: 20%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:16%;
+    left:47%;
+}
+
+.f-location {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:10%;
+    left:3%;
+
+}
+
+.iconf0 {float: left;
+    text-align: center;
+    width: 20%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:16%;
+    left:0.5%;
+}
+
+
+
+/* Formato del SECCION 2*/
+.wrapper2 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top:850px;
+    left:5px;
+}
+
+.logos {
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/img/logos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+
+/* Formato del SECCION 3*/
+.wrapper3 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top:1050px;
+    left:5px;
+}
+
+.wrapper3B {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top:1350px;
+    left:5px;
+}
+
+.box1 {
+    float: left;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: relative;
+    top:0%;
+    left:5%;
+}
+
+.box2 {
+    float: left;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: relative;
+    top:0%;
+    left:7%;
+}
+
+.box3 {
+    float: left;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: relative;
+    top:0%;
+    left:9%;
+}
+
+.box4 {
+    float: left;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: relative;
+    top:0%;
+    left:11%;
+}
+
+
+/* Formato del SECCION 4*/
+
+.wrapper4 {
+    width: 100%;
+    height: 1050px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:1800px;
+    left:10px;
+}
+
+.img2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/img/Imagen2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5px;
+}
+
+.texto4{
+    float: right;
+    width: 40%;
+    height: 70%;
+    position:relative;
+    top: 10%;
+    right: 5%;
+    
+}
+
+.texto4B{
+    float: left;
+    width: 100%;
+    height: 80%;
+    position:absolute;
+    top: 45%;
+    left: 20%;
+    
+    
+}
+
+.iconsS4{
+    float: left;
+    width: 10%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top:47.5%;
+    left:6%;
+}
+
+/* Formato del SECCION 5*/
+.wrapper5 {
+    width: 100%;
+    height: 1200px;
+    background-color:white;
+    position: absolute;
+    top:2750px;
+    left:10px;
+}
+
+.img3 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/img/Imagen3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5px;
+}
+
+.texto5{
+    float: left;
+    width: 40%;
+    height: 70%;
+    position:absolute;
+    top: 10%;
+    left: 5%;
+    
+}
+
+.box5 {
+    float: left;
+    width: 18%;
+    height:22%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: absolute;
+    top:35%;
+    left:5%;
+}
+
+.box6 {
+    float: left;
+    width: 18%;
+    height: 22%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: absolute;
+    top:35%;
+    left:25%;
+}
+
+.box7 {
+    float: left;
+    width: 18%;
+    height: 22%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: absolute;
+    top:60%;
+    left:5%;
+}
+
+.box8 {
+    float: left;
+    width: 18%;
+    height: 22%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px 0 rgba(49,80,207, 0.4), 0 6px 20px 0 rgba(49,80,207, 0.4);
+    position: absolute;
+    top:60%;
+    left:25%;
+}
+
+
+
+/* FOOTER */
+.pie {
+    width: 100%;
+    height: 400px;
+    background-color:#dae5fa;
+    position: absolute;
+    top:3800px;
+    left:10px;
+}
+
+.textito{
+    font-size: 20px;
+    font-family:sans-serif ;
+    text-decoration: none;
+}
+
+.textof1{
+    float: left;
+    width: 15%;
+    height: 40%;
+    position:relative;
+    top: 0%;
+    left: 10%;
+}
+
+.textof2{
+    float: right;
+    width: 15%;
+    height: 40%;
+    position:relative;
+    top: 5%;
+    right: 30%;
+}
+
+.textof3{
+    float: right;
+    width: 15%;
+    height: 40%;
+    position:relative;
+    top: 5%;
+    right: 2%;
+}
+
+.textof4{
+    float: right;
+    width: 15%;
+    height: 40%;
+    position:relative;
+    top: 5%;
+    right: -26%;
+}
+
+
+.textof5{
+    float: left;
+    clear:left;
+    width: 30%;
+    height: 10%;
+    position:relative;
+    top: 45%;
+    left: 10%;
+    font-size: 18px;
+}
+.textof6{
+    float: right;
+    clear:right;
+    width: 30%;
+    height: 10%;
+    position:relative;
+    top: 45%;
+    right: 10%;
+    font-size: 18px;
+}
